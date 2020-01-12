@@ -1,9 +1,9 @@
 # Minecraft-CPU
-A CPU with an 8 bit instruction set connected to a RAM with 4 bit addresses. Built in Minecraft. Inspiration/knowledge for this project came from the Crash Course Computer Science Youtube series. World download is the 'Computer Stuff' folder.
+A CPU with 8 bit instructions connected to a RAM with 4 bit addresses. Built in Minecraft. Inspiration/knowledge for this project came from the Crash Course Computer Science Youtube series. World download is the 'Computer Stuff' folder.
 
-The CPU uses real designs for cicuits replicated with Minecrafts redstone blocks (blocks that act like electrical wires). Some circuits used in this CPU include AND gates, OR gates, NOT gates, and XOR gates. I combined these gates to form gated latches (memory), half adders and ripple carry adders. I then built a control unit to activate these components at the right time in the right order based on what instruction it was fed to make a working CPU.
+The CPU uses real designs for circuits replicated with Minecrafts redstone blocks (blocks that act like electrical wires). Some circuits used in this CPU include AND gates, OR gates, NOT gates, and XOR gates. I combined these gates to form gated latches (memory), half adders and ripple carry adders. I then built a control unit to activate these components at the right time in the right order based on what instruction it was fed to make a working CPU.
 
-The componens of the CPU include:
+The components of the CPU include:
 - A 4 bit instruction address register
 - An 8 bit instruction register
 - An ALU capable of addition and comparison of 4 bit numbers
